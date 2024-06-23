@@ -49,7 +49,7 @@ endfunction
 // when compiling this file in modelsim by adding the following argument to the
 // vlog command that compiles this module:
 // +define+INCLUDE_FILE="../../../includes/params.h"
-`include `INCLUDE_FILE
+`include "./params.h"
 
 // Local parameters //
 localparam BUS_PORTS     = NUM_CACHES + 1;

@@ -87,7 +87,7 @@ localparam SBITS       = COHERENCE_BITS + STATUS_BITS;
 // when compiling this file in modelsim by adding the following argument to the
 // vlog command that compiles this module:
 // +define+INCLUDE_FILE="../../../includes/params.h"
-`include `INCLUDE_FILE
+`include "./params.h"
 
 //port definitions
 input  clock, reset;

@@ -72,7 +72,7 @@ endfunction
 // when compiling this file in modelsim by adding the following argument to the
 // vlog command that compiles this module:
 // +define+INCLUDE_FILE="../../../includes/params.h"
-`include `INCLUDE_FILE
+`include "./params.h"
 
 localparam BUS_WORDS     = 1 << BUS_OFFSET_BITS;
 localparam BUS_WIDTH     = BUS_WORDS*DATA_WIDTH;

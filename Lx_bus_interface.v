@@ -86,7 +86,7 @@ localparam IDLE            = 4'd0 ,
 // when compiling this file in modelsim by adding the following argument to the
 // vlog command that compiles this module:
 // +define+INCLUDE_FILE="../../../includes/params.h"
-`include `INCLUDE_FILE
+`include "./params.h"
 
 input clock, reset;
 
